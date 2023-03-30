@@ -10,6 +10,10 @@ app.get("/",(req,res) => {
     res.send("hello from testing express server");
 })
 
+app.get("/test",(req,res) => {
+    res.send("from testing routes...");
+})
+
 
 
 app.listen(5000,() => {
